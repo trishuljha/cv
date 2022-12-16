@@ -1,0 +1,110 @@
+#background{
+    background-image: url("31040378.jpg");
+    background-repeat: repeat-x;
+     background-size: contain; 
+    background-position: center;
+    position: absolute;
+    margin-left: 0px;
+    width: 800vw;
+    height: 100vh;
+    
+    
+}
+@keyframes bm {
+    100%{
+        transform: translateX(-50vw);
+        
+    }
+    
+}
+.container
+{
+    border:2px solid green;
+    background-color: aqua;
+    height:20px;
+    width:65px;
+    padding: 2px 2px 2px 2px;
+    margin: 10 auto;
+    border-radius: 3px;
+
+}
+button:hover
+{
+    cursor: pointer;
+}
+#car{
+    position: absolute; 
+    background-image: url("car_body.jpg");   
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center;
+    bottom: 0vh;
+    left: 15vw;
+    height: 20vw;
+    width: 50vw;
+    border: 0px solid blue;
+    margin: auto;
+    animation-play-state: running;
+    
+    
+}
+@keyframes m1 {
+    33%{
+        transform: translateY(1%);
+    }
+    50%
+    {
+        transform: translateY(-1%);
+    }
+    75%
+    {
+        transform: translateY(1%);
+    }
+    100%
+    {
+        transform: translateY(-1%);
+    }
+    
+}
+
+#wheel1 {
+    position: relative;
+    bottom: -8vw;
+    left: 6vw;
+    height: 10vw;
+    width: 10vw;
+    padding: 0px 0px 0px 0px;
+    /* margin: auto; */
+    /* border: 5px solid green; */
+    border-radius: 50%;
+   
+}
+
+
+@keyframes r1 {
+    100%{
+        transform:rotate(360deg);
+    }
+    
+}
+
+#wheel2{
+    position: relative;
+    bottom: -8vw;
+    left: 21vw;
+    background-repeat: repeat-x;
+    height: 10vw;
+    width: 10vw;
+    padding: 0px 0px 0px 0px;
+    /* margin: auto; */
+    /* border: 5px solid green; */
+    border-radius: 50%;
+    
+    
+    
+}
+audio{
+    display: none;
+    position: absolute;
+    bottom:-12vw;
+}
